@@ -16,12 +16,28 @@
   </head>
 
   <body>
-    <div>
-      <h3>Hey , yash here !!!</h3>
-      <h4>Polyglot programmer , Open Cource Contributor  , Tech Enth</h4>
-      <h5>I write bad <span style="color: blue;">Code</span> but i consider myself a good programmer</h5>
-
-      
+    <div id="main">
+      <h1>Hey , yash here !!!</h1>
+      <h2>
+        Polyglot <span style="color: blue; cursor: pointer; " onclick="github()">Programmer</span> , Open Cource
+        Contributor (yet to be...) ,
+        <span style="cursor: pointer;  color: blue" onclick="dev()">Tech Enth.</span>.
+      </h2>
+      <h1>
+        I write bad <span style="color: blue; cursor: pointer;" onclick="github() ">Code</span> but i consider myself
+        a good programmer.
+      </h1>
+      <p><sub>i cant center a div :(</sub></p>
     </div>
   </body>
+
+  <script>
+    function github(){
+      window.open("https://github.com/ctrly4sh" , "_blank")
+    }
+    function dev(){
+      window.open("https://dev.to/y4sh/programming-in-2024-59f3" , "_blank")
+    }
+  </script>
+
 </html>
