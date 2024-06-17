@@ -1,3 +1,7 @@
 body {
+  height: 98vh;
   font-family: "Fira Code thin", monospace;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(183, 183, 238), aliceblue);}
