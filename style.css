@@ -17,14 +17,14 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  gap: 20px; /* Adds spacing between list items */
+  gap: 20px;
 }
 
 #tags ul li {
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 8px; /* Adds spacing between icon and text */
+  gap: 8px;
   font-family: "Fira Code";
   font-size: large;
 }
