@@ -1,84 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>y4sh ??</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>y</title>
 
-    <!-- Font Awesome -->
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css"
-      integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    /> -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <!-- Custom font classes -->
+  <style>
+    body {
+      font-family: 'JetBrains Mono', monospace;
+    }
 
-  <body>
-    <div id="main">
-      <h1>Hey , yash here !!!</h1>
-      <h2>
-        Polyglot
-        <span style="color: blue; cursor: pointer" onclick="github()"
-          >Programmer</span
-        >, Open Source dev (yet to..) , 
-        <span style="cursor: pointer; color: blue" onclick="dev()"
-          >Tech Enth </span
-        > , 
-        Indie hacker
-      </h2>
-      <h1>
-        I write bad
-        <span style="color: blue; cursor: pointer" onclick="github()"
-          >Code</span
-        >
-        but I consider myself a good programmer.
-      </h1>
-      <h3></h3>
+    .vt323 {
+      font-family: "VT323", monospace;
+    }
+  </style>
+</head>
 
-      <div id="tags">
-        <ul>
-          <li onclick="github()"><i class="fab fa-github"></i> GitHub</li>
-          <li onclick="mail()"><i class="fas fa-envelope"></i> Mail</li>
-          <li onclick="twitter()"><i class="fab fa-twitter"></i> Twitter</li>
-          <li onclick="telegram()"><i class="fab fa-telegram"></i>Telegram</li>
-        </ul>
-      </div>
-    </div>
+<body class="bg-[#fafafa] text-[#111] max-w-[700px] mx-auto px-4 leading-relaxed mt-[px]">
 
-    <script>
-      function github() {
-        window.open("https://github.com/ctrly4sh", "_blank");
-      }
-      function mail() {
-        window.open("mailto:y4sh.dev@gmail..com", "_blank");
-      }
-      function twitter() {
-        window.open("https://twitter.com/y4shofc", "_blank");
-      }
-      function telegram() {
-        window.open("https://t.me/y4sh69", "_blank");
-      }
-    </script>
-  </body>
-</html>
+  <!-- Name -->
+  <p class="vt323 text-[200px] leading-[1.1] m-[-7px] ">Yash</p>
+
+  <!-- Title -->
+  <h2 class="text-[1.2rem] font-normal text-gray-600  mb-6 font-bold font-family: 'SF Mono', monospace;">Backend |
+    Infra | ML</h2>
+
+  <div class="mb-6">
+    <p>I build backend systems.</p>
+    <p>Interested about Open source, Security, Infra, Machine learning
+    <p>and everything in tech.</p>
+  </div>
+
+  <!-- Resume Links -->
+  <div class="mb-6 flex gap-4 text-bold text-[1rem]">
+    <!-- View Resume -->
+    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" class=" underline transition"
+      aria-label="View resume in new tab">
+      Resume
+    </a>
+  </div>
+
+
+  <!-- Social Links -->
+  <div class="flex space-x-7 text-2xl">
+    <a href="https://github.com/ctrly4sh" target="_blank" aria-label="GitHub"
+      class="text-[#111] hover:text-[#0077cc] transition-colors">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/yashtiwari24" target="_blank" aria-label="LinkedIn"
+      class="text-[#111] hover:text-[#0077cc] transition-colors">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://twitter.com/ctrly4sh" target="_blank" aria-label="Twitter"
+      class="text-[#111] hover:text-[#0077cc] transition-colors">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="mailto:yashtiwari.tech@gmail.com" aria-label="Email" class="text-[#111] hover:text-[#0077cc] transition-colors">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://discord.com/users/1419378148281155615" aria-label="discord" class="text-[#111] hover:text-[#0077cc] transition-colors">
+      <i class="fa-brands fa-discord"></i>
+    </a>
+    <a href="https://medium.com/@ctrly4sh" target="_blank" aria-label="Medium"
+      class="text-[#111] hover:text-[#0077cc] transition-colors">
+      <i class="fab fa-medium"></i>
+    </a>
+
+    <a href="https://medium.com/@ctrly4sh" target="_blank" aria-label="Hashnode"
+      class="text-[#111] hover:text-[#0077cc] transition-colors">
+      <i class="fa-brands fa-hashnode"></i>
+    </a>
+
+
+  </div>
+
+  <!-- Projects Section -->
+<div class="mt-8 mb-8">
+  <h3 class="text-lg font-semibold mb-4">Projects</h3>
+  <ul class="space-y-2 text-sm">
+    <li>
+      <span class="font-mono font-semibold">Listing soon</span> — 
+      visit <a href="https://github.com/ctrly4sh"><u class="font-bold">github.com/ctrly4sh</u> for now
+    </li>
+  </ul>
+</div>
+
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2lnF0JlRZQ12zPjwohhhYd?utm_source=generator" width="100%" height="252" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<p>i love Hotel Ugly</span></p>
+
+
+</body>
+
+</html> 
