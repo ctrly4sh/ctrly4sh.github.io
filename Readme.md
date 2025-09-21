@@ -1,3 +1,3 @@
-lil bit about me 
+lil bit about me in html 
 
-<img src="./assets/y.png">
+
